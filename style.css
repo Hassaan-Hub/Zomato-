@@ -1,0 +1,309 @@
+.hzom {
+  font-weight: bolder;
+  font-size: xx-large;
+  font-style: italic;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+.header {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 1px 0px 23px 10px rgba(171, 168, 168, 0.34);
+  margin-left: 30px;
+  padding: 15px 150px 15px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.inheader {
+  margin-left: 20px;
+  color: rgb(154, 151, 147);
+  border-right: 1.5px solid rgb(185, 182, 182);
+  padding-right: 180px;
+}
+
+.himg {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  left: 225px;
+  top: 18px;
+}
+
+.himg1 {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  left: 450px;
+  top: 24px;
+}
+
+.himg2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 500px;
+  top: 22px;
+}
+
+.Search {
+  margin-left: 50px;
+  color: rgb(154, 151, 147);
+}
+
+.text1 {
+  margin-left: 90px;
+  color: lightslategray;
+  font-size: 20px;
+}
+
+.text2 {
+  margin-left: 45px;
+  color: lightslategray;
+  font-size: 20px;
+}
+
+.pera1 {
+  margin-left: 80px;
+  margin-top: 45px;
+  color: gray;
+  font-size: small;
+  cursor: pointer;
+}
+
+.text3{
+  margin-left: 10px;
+}
+.text4{
+  margin-left: 10px;
+}
+.text4:hover{
+  color: chocolate;
+}
+
+.text5{
+  margin-left: 5px;
+  color: rgb(214, 206, 206);
+}
+
+.box1{
+  margin-left: 85px;
+  margin-top: 40px;
+  color: gray;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.minbox1{
+  border: 1.5px solid rgb(240, 235, 235);
+  padding: 8px 10px 8px 30px;
+  border-radius: 7px;
+  color: rgb(187, 183, 183);
+}
+.minbox1:hover{
+  background-color: rgb(241, 241, 241);
+}
+.minImg{
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 140px;
+  left: 95px;
+}
+
+.minbox2{
+  border: 1.5px solid rgb(240, 235, 235);
+  margin-left: 6px;
+  padding: 8px 10px 8px 10px;
+  border-radius: 7px;
+  color: rgb(187, 183, 183);
+}
+.minbox2:hover{
+  background-color: rgb(241, 241, 241);
+}
+
+.minbox3{
+  border: 1.5px solid rgb(240, 235, 235);
+  margin-left: 6px;
+  padding: 8px 30px 8px 6px;
+  border-radius: 7px;
+  color: rgb(187, 183, 183);
+}
+.minbox3:hover{
+  background-color: rgb(241, 241, 241);
+}
+.chevDon{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 150px;
+  left: 350px;
+}
+
+/* in food */
+.inFoods {
+  width: 100vw;
+  height: 340px;
+  background-color: rgb(248, 248, 248);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.text6{
+  margin-left: 90px;
+  font-size: 2.1em;
+}
+
+.img1{
+  margin-left: 83px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.img2{
+  margin-left: 35px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.img3{
+  margin-left: 35px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.img4{
+  margin-left: 35px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.img5{
+  margin-left: 35px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.img6{
+  margin-left: 35px;
+  margin-top: 37px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.names{
+  margin-left: 122px;
+  font-size: x-large;
+}
+
+.cardText{
+  font-size: xx-large;
+  margin-left: 65px;
+}
+
+
+
+
+/* cards */
+.food-card {
+  width: 300px;
+  margin-left: 70px;
+  border-radius: 15px;
+  background-color: #fff;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+  overflow: hidden;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, outline 0.1s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 10px solid transparent;
+  display: inline-block;
+}
+
+.food-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  border-color: #fff;
+  outline: 1px solid rgb(255, 252, 252);
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #1a73e8;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.food-info {
+  padding: 12px 14px;
+}
+
+.food-info h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.rating {
+  background-color: #48c479;
+  color: white;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.time {
+  color: #555;
+  font-size: 13px;
+}
+
+
+
+
+
+
